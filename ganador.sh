@@ -1,4 +1,17 @@
-<<<<<<<<< Temporary merge branch 1
+<<<<<<< Updated upstream
+=======
+rm -r Parametro
+
+read -p "Por favor, introduce tu nombre: " nombre
+
+mkdir $nombre
+cd $nombre
+touch Ganador.txt
+#!/bin/bash
+echo "Hola, $nombre.
+Usted ha if[]" > Ganador.txt
+
+
 #!/bin/bash
 ### 4 SI AHORA LOS MINUTOS SON PAR, DECIR "HAS GANADO" GUARDAR FICHERO COMO GANADOR.TXT
 
@@ -12,16 +25,5 @@ if [ $((minuto % 2)) -eq 0 ]; then
     echo "HAS GANADO, "
     echo "HAS GANADO - $fecha" > "$1/ganador.txt"
 fi
-=========
-rm -r Parametro
-
-read -p "Por favor, introduce tu nombre: " nombre
-
-mkdir $nombre
-cd $nombre
-touch Ganador.txt
-#!/bin/bash
-echo "Hola, $nombre.
-Usted ha if[]" > Ganador.txt
-
->>>>>>>>> Temporary merge branch 2
+>>>>>>> Stashed changes
+.
