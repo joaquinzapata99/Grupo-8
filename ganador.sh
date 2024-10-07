@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 rm -r Parametro
 
 read -p "Por favor, introduce tu nombre: " nombre
@@ -25,5 +23,4 @@ if [ $((minuto % 2)) -eq 0 ]; then
     echo "HAS GANADO, "
     echo "HAS GANADO - $fecha" > "$1/ganador.txt"
 fi
->>>>>>> Stashed changes
 .
