@@ -26,3 +26,4 @@ if [ $((minuto % 2)) -eq 0 ]; then
     echo "HAS GANADO - $fecha" > "$1/ganador.txt"
 fi
 >>>>>>> Stashed changes
+.
